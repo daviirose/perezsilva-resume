@@ -1,13 +1,50 @@
+body{background-image: url(images/cset.jpg);
+
+}
+header {
+  padding-top: 20px;
+}
+section {
+  margin-top: -100px;
+}
+article {
+  background-color: white;
+  height: 900px;
+  width:900px;
+  margin: 0 auto;
+}
 .info {
   float: right;
-  margin-right: 80px;
+  margin-right: 110px;
+  display: inline-block;
 }
 h1 {
-  margin: 50px 0px -40px 50px;
+  margin-left: 80px;
+  display: inline-block;
+}
+.center1 {
+  margin-top: 120px;
+  text-align: center;
+  font-size: 25px;
 }
 .line {
   height: 5px;
   width: 90%;
-  margin: 100px 0px 30px 30px;
+  margin:10px 0px 30px 30px;
   background-color: black;
+}
+.line2 {
+  height: 5px;
+  width: 90%;
+  margin: 130px 0px 30px 30px;
+  background-color: black;
+
+}
+.objective {
+  margin: 20px 20px auto;
+}
+.column {
+  margin: 50px 0px 20px 40px;
+-webkit-column-count: 2;
+column-rule: 2px solid red;
 }
