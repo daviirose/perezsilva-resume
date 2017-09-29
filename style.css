@@ -1,0 +1,13 @@
+.info {
+  float: right;
+  margin-right: 80px;
+}
+h1 {
+  margin: 50px 0px -40px 50px;
+}
+.line {
+  height: 5px;
+  width: 90%;
+  margin: 100px 0px 30px 30px;
+  background-color: black;
+}
