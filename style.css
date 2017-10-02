@@ -1,11 +1,11 @@
 body{background-image: url(images/cset.jpg);
 
+
 }
-header {
-  padding-top: 20px;
-}
-section {
-  margin-top: -100px;
+.resume {
+	background-color: white;
+	max-width: 960px;
+	margin: 0 auto;
 }
 article {
   background-color: white;
@@ -23,7 +23,6 @@ h1 {
   display: inline-block;
 }
 .center1 {
-  margin-top: 120px;
   text-align: center;
   font-size: 25px;
 }
@@ -36,15 +35,45 @@ h1 {
 .line2 {
   height: 5px;
   width: 90%;
-  margin: 130px 0px 30px 30px;
+  margin: 100px 0px 30px 30px;
   background-color: black;
-
 }
 .objective {
   margin: 20px 20px auto;
 }
-.column {
-  margin: 50px 0px 20px 40px;
--webkit-column-count: 2;
-column-rule: 2px solid red;
+.flex-container {
+	display: flex;
+	width: 100%;
+}
+.box {
+height: 100px;
+min-width: 200px;
+}
+.one {
+width: 50%;
+text-align: center;
+}
+.two {
+	width: 50%;
+	text-align: center;
+}
+.three {
+	width: 50%;
+	float: left;
+	margin-left: 20px;
+	margin-top: -30px;
+}
+.four {
+	float: right;
+	margin-right: 60px;
+	margin-top: -30px;
+}
+.section2 {
+margin-top: 200;
+}
+.line3 {
+	height: 5px;
+	width: 90%;
+	margin: 100px 0px 30px 30px;
+	background-color: black;
 }
