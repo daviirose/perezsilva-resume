@@ -77,3 +77,12 @@ margin-top: 200;
 	margin: 100px 0px 30px 30px;
 	background-color: black;
 }
+.work {
+	width: 100%;
+	text-align: center;
+}
+.flex-container2 {
+	display: flex;
+	width: 100%;
+	flex-wrap: wrap;
+}
